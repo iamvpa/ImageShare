@@ -2,6 +2,7 @@ import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { Image, Platform, StyleSheet, Text, View, TouchableOpacity } from 'react-native';
 import uploadToAnonymousFilesAsync from 'anonymous-files'
+import logo from './assets/logo.png'
 import * as ImagePicker from 'expo-image-picker'
 import * as Sharing from 'expo-sharing'
 
